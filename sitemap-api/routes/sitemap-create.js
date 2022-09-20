@@ -105,7 +105,7 @@ const generateSitemapFromDB = async () => {
 
 }
 
-router.route('/create/sitemap.xml').get(async (req, res) => {
+router.route('/create/sitemap.xml.gz').get(async (req, res) => {
 	console.log("Writhing started");
 
 	await generateSitemapFromDB();
