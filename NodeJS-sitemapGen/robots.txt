@@ -1,0 +1,2 @@
+Sitemap: http://www.example.com/sitemaps/sitemap-index.xml.gz
+User-agent: *
